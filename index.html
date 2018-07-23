@@ -27,18 +27,23 @@
 	<div class="bg-g1 size1 flex-w flex-col-c-sb p-l-15 p-r-15 p-b-30">
 		<div class="flex-w flex-c cd100 wsize1 bor1">
 			<div class="flex-col-c-m size2 bg0 bor2">
-				<span class="l1-txt3 p-b-7 days">Oct</span>
-				<span class="s1-txt1">MONTH</span>
+				<span class="l1-txt3 p-b-7 days">35</span>
+				<span class="s1-txt1">Days</span>
 			</div>
 
 			<div class="flex-col-c-m size2 bg0 bor2">
-				<span class="l1-txt3 p-b-7 hours">31<sup>st</sup></span>
-				<span class="s1-txt1">DATE</span>
+				<span class="l1-txt3 p-b-7 hours">17</span>
+				<span class="s1-txt1">Hours</span>
 			</div>
 
 			<div class="flex-col-c-m size2 bg0 bor2">
-				<span class="l1-txt3 p-b-7 minutes">2018</span>
-				<span class="s1-txt1">YEAR</span>
+				<span class="l1-txt3 p-b-7 minutes">50</span>
+				<span class="s1-txt1">Minutes</span>
+			</div>
+
+			<div class="flex-col-c-m size2 bg0">
+				<span class="l1-txt3 p-b-7 seconds">39</span>
+				<span class="s1-txt1">Seconds</span>
 			</div>
 		</div>
 
@@ -92,7 +97,7 @@
 	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
 	<script src="vendor/countdowntime/countdowntime.js"></script>
 	<script>
-        /*var now = moment(); //today's date
+        var now = moment(); //today's date
         var end = moment.utc("2018-10-31 10:00", "YYYY-MM-DD HH"); // End Date
         var duration = moment.duration(end.diff(now));
 		$('.cd100').countdown100({
@@ -103,7 +108,7 @@
 			endtimeMinutes: 0,
 			endtimeSeconds: 0,
 			timeZone: ""
-		});*/
+		});
 	</script>
 <!--===============================================================================================-->
 	<script src="vendor/toastr/toastr.min.js"></script>

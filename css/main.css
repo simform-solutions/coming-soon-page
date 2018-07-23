@@ -249,11 +249,7 @@ Primary use:
 
 /*---------------------------------------------*/
 .bg-g1 {
-  background: #fb5f7e;
-  background: -webkit-linear-gradient(bottom, #f77062, #fe5196);
-  background: -o-linear-gradient(bottom, #f77062, #fe5196);
-  background: -moz-linear-gradient(bottom, #f77062, #fe5196);
-  background: linear-gradient(bottom, #f77062, #fe5196);
+  background: #e42e37;
 }
 
 
@@ -301,38 +297,6 @@ Primary use:
   z-index: 1;
   overflow: hidden;
 }
-
-.how-btn::before {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: #fb2e57;
-  background: -webkit-linear-gradient(top, #f65342, #fb3282);
-  background: -o-linear-gradient(top, #f65342, #fb3282);
-  background: -moz-linear-gradient(top, #f65342, #fb3282);
-  background: linear-gradient(top, #f65342, #fb3282);
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
-  opacity: 0;
-}
-
-.how-btn:hover {
-  background-color: transparent;
-}
-
-.how-btn:hover:before {
-  opacity: 1;
-}
-
-
-
 
 /*//////////////////////////////////////////////////////////////////
 [ Pseudo ]*/
